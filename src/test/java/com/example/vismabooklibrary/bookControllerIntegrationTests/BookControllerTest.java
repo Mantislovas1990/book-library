@@ -56,7 +56,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> listOfBooks = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         int sizeOfList = listOfBooks.size();
@@ -119,7 +119,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByAuthor = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String authorOfTheBookAtIndex0 = sortedListOfBooksByAuthor.get(0).getAuthor();
@@ -139,7 +139,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByCategory = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String categoryOfTheBookAtIndex0 = sortedListOfBooksByCategory.get(0).getCategory();
@@ -159,7 +159,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByLanguage = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String languageOfTheBookAtIndex0 = sortedListOfBooksByLanguage.get(0).getLanguage();
@@ -183,7 +183,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByIsbn = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String isbnOfTheBookAtIndex0 = sortedListOfBooksByIsbn.get(0).getIsbn();
@@ -207,7 +207,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByName = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String nameOfTheBookAtIndex0 = sortedListOfBooksByName.get(0).getName();
@@ -246,7 +246,7 @@ class BookControllerTest {
                 .andReturn();
 
         List<Book> sortedListOfBooksByTakenAndNot = objectMapper.readValue(
-                mvcResult.getResponse().getContentAsString(), new TypeReference<List<Book>>() {
+                mvcResult.getResponse().getContentAsString(), new TypeReference<>() {
                 });
 
         String nameOfTheHolderAtIndex0 = sortedListOfBooksByTakenAndNot.get(0).getNameOfBookHolder();
