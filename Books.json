@@ -1,0 +1,50 @@
+[ {
+  "publicationDate" : "1990-12-08",
+  "name" : "A book",
+  "category" : "Eomedy",
+  "language" : "Cnglish",
+  "author" : "Grendy",
+  "isbn" : "4",
+  "guid" : "76cddc6f-92d4-4ed8-a63a-8e903a5ccea7",
+  "nameOfBookHolder" : "Mantas",
+  "timeOfRent" : "2021-11-30"
+}, {
+  "publicationDate" : "1990-12-08",
+  "name" : "Z book",
+  "category" : "Uomedy",
+  "language" : "Bnglish",
+  "author" : "Zrendy",
+  "isbn" : "10",
+  "guid" : "9f772bf7-d71b-4e52-9b1e-62926cfd72cd",
+  "nameOfBookHolder" : "default value"
+}, {
+  "publicationDate" : "1990-12-08",
+  "name" : "E book",
+  "category" : "Eomedy",
+  "language" : "English",
+  "author" : "Erendy",
+  "isbn" : "5",
+  "guid" : "68df5d7d-ea45-4499-9b9a-74d6fd07cc69",
+  "nameOfBookHolder" : "Bantas",
+  "timeOfRent" : "2021-11-30"
+}, {
+  "publicationDate" : "1990-12-08",
+  "name" : "Z book",
+  "category" : "Uomedy",
+  "language" : "Bnglish",
+  "author" : "Zrendy",
+  "isbn" : "1",
+  "guid" : "af9f02a0-a540-4dbd-b7c4-8cd8c29d1698",
+  "nameOfBookHolder" : "Bantas",
+  "timeOfRent" : "2021-11-30"
+}, {
+  "publicationDate" : "1990-12-08",
+  "name" : "Z book",
+  "category" : "Uomedy",
+  "language" : "Bnglish",
+  "author" : "Zrendy",
+  "isbn" : "3",
+  "guid" : "39030c30-b051-43f4-b186-c795ee995ad6",
+  "nameOfBookHolder" : "Bantas",
+  "timeOfRent" : "2021-11-30"
+} ]
